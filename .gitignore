@@ -36,7 +36,8 @@ out/
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw?    
+# air66127
 
 # OS files
 .DS_Store

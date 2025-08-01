@@ -133,8 +133,8 @@ export default function ChallengeWelcome() {
             gap: { xs: 1.5, sm: 2 },
           }}
         >
-          <ParameterItem icon="⏱️" title={`${quiz?.questions?.length || 0} Questions`} />
-          <ParameterItem icon="🕒" title={`${quiz?.time || 0} Minutes`} />
+          <ParameterItem icon="⏱️" title={`5 Questions`} />
+          <ParameterItem icon="🕒" title={`15 Minutes`} />
           <ParameterItem icon="❓" title="Multiple Choice" />
           <ParameterItem icon="↔️" title="Navigate Between Questions" />
         </Box>
