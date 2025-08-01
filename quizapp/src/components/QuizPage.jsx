@@ -17,7 +17,7 @@ export default function QuizPage() {
     if (quiz?.title) {
       const normalizedTitle = quiz.title.trim();
       console.log("Fetching quiz with title:", normalizedTitle);
-      fetch(`http://localhost:5000/api/quizzes/${encodeURIComponent(normalizedTitle)}`)
+      fetch(`https://quickquizeapp.onrender.com/api/quizzes/${encodeURIComponent(normalizedTitle)}`)
         .then((res) => {
           if (!res.ok) {
             if (res.status === 404) {
