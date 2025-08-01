@@ -31,7 +31,7 @@ export default function JoinArenaForm() {
         return;
       }
 
-      const response = await fetch("http://localhost:5000/api/join-arena", {
+      const response = await fetch("https://quickquizeapp.onrender.com/api/join-arena", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
